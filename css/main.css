@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+body {
+	background-image: url("../img/background.png");
+	font-family: "Museo", sans-serif;
+}
+
+.fullcontainer {
+	margin: 20px auto;
+	width: 700px;
+}
+
+@font-face {
+    font-family: "Museo";
+    src: url(../fonts/museo_300_regular/Museo300-Regular.otf) format("truetype");
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/*----------------- CSS HEADER -------------*/
+
+nav {
+	border: 3px dashed #F9A91A;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 20px;
+	text-align: center;
+    width: 700px;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	margin: 10px auto;
+	width: 25%;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #262626;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: black;
+	background-color: #F9A91A;
+}
+
+/*----------------- CSS CONTAINER -------------*/
+
+h3 {
+	font-size: 16px;
+}
+
+.bordetextcontainer {
+	border: 2px solid #F9A91A;
+	border-left: 0px;
+	border-right: 0px;
+	width: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.textcontainer {
+	width: 400px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.grupal {
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+/*----------------- CSS DE LA PARTE DE CODERS -------------*/
+
+h4 {
+	font: 18px "Museo", sans-serif;
+	font-weight: bold;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.containercoder {
+	width: 80px;
+	margin-top: 20px;
+	border-bottom: 3px solid #F9A91A;
+}
+
+.images_row {
+	width: 700px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.img_row .foto {
+	width: 211px;
+	height: 211px;
+	display: inline-block;
+}
+
+.img_row {
+	width: 655px;
+	margin: auto;
+}
+
+.img_row .foto h2 {
+	font: 16px "Museo", sans-serif;
+	color: white;
+	position: relative;
+	text-align: right;
+	top: -30px;
+	right: 10px;
+}
+
+.foto:first-child, .foto:nth-child(2) {
+	margin-right: 6px;
+}

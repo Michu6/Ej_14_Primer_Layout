@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+body {
+	background-image: url(../img/background_coder.png);
+	font-family: "BebasNeue"
+}
+.fullcontainer {
+	width: 700px;
+	margin: auto;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../fonts/bebas_neue_regular/BebasNeue.otf) format("opentype");
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* ------------- ESTE ES EL HEADER -------------*/
+h1 {
+	font-size: 50px;
+	color: #F5204D;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.header {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.header img {
+	border-radius: 100%;
+	border: 5px white solid;
+	box-shadow: 3px 3px 8px #7D7D7D;
+	margin-bottom: 10px;
+}
+
+.header_bio {
+	width: 650px;
+	margin: 20px auto;	
+}
+
+/* ------------- ESTE ES EL CONTAINER -------------*/
+h2 {
+	font-size: 35px;
+	color: #F9A91A;
+}
+
+.container_habilidades, .container_portafolio {
+	width: 680px;
+	margin: 20px auto;
+}
+
+.container p {
+	background-color: #F0BB05;
+	margin: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+p:nth-child(2) {
+	width: 550px;
+}
+
+p:nth-child(3) {
+	width: 450px;
+}
+
+p:nth-child(4) {
+	width: 350px;
+}
+
+
+.foto {
+	display: inline-block;
+}
+
+.foto:first-child {
+	float: left;
+}
+.foto:nth-child(3) {
+	float: right;
+}
+
+.container_imagenes {
+	display: inline-block;
+	width: 650px;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	left: 20px;
+}
